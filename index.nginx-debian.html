@@ -21,26 +21,27 @@
 
 <body>
 	<header>
-        <nav class="sidebar">
+        <nav class="sidebar" id="sidebar">
             <div class="navbar-collapse" id="navbar-collapse">
                 <div class="site-header hidden-xs">
                     <a class="site-brand" href="#" title="">
                         <img class="img-responsive site-logo" alt="" src="../images/mashup-logo.svg">
                     </a>
-					<h5>Barış Can Soy Portfolio Site</h5> 
+					<h5 id="sidebarHeader">Barış Can Soy Personal Site</h5>
                     <p>
-                        Welcome to my website where I share my portfolio.
+                        Welcome to my personal website.
                     </p>
                 </div>
 
                 <ul class="nav">
-                    <li><a href="index.nginx-debian.html" title="">Home</a></li>
-                    <li><a href="About.html" title="">About</a></li>
-                    <li><a href="Projects.html" title="">Projects</a></li>
-                    <li><a href="Contact.html" title="">Contact</a></li>
+                    <li><a href="index.nginx-debian.html" title="" class="navbarElement">Home</a></li>
+                    <li><a href="About.html" title="" class="navbarElement">About</a></li>
+                    <li><a href="Projects.html" title="" class="navbarElement">Projects</a></li>
+                    <li><a href="Contact.html" title="" class="navbarElement">Contact</a></li>
                 </ul>
 
                 <nav class="nav-footer">
+                    <button class="darkButton" id="darkButton" onclick="darknessRises()">Dark Mode</button>
                     <p class="nav-footer-social-buttons">
                         <a class="fa-icon" href="https://www.instagram.com/bariscansoy" target="_blank" title="">
                             <i class="fa fa-instagram"></i>
@@ -56,8 +57,8 @@
                     <p>
 						© 
 						<script type="text/javascript"> 
-							var today = new Date();
-							var date = today.getFullYear();
+							let today = new Date();
+							let date = today.getFullYear();
 							document.write(date);
 						</script>
 						| Barış Can Soy
@@ -200,6 +201,7 @@
 
     -->
     <script type="text/javascript" src="./js/main.85741bff.js"></script>
+    <script type="text/javascript" src="./js/site.js"></script>
 </body>
 
 </html> 
